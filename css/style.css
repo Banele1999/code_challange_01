@@ -1,0 +1,29 @@
+/* Family: [Inter](https://fonts.google.com/specimen/Inter) */
+
+/* ## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px */
+:root {
+    --bs-orange: hsl(35, 77%, 62%);
+    --bs-red: hsl(5, 85%, 63%);
+    --bs-off-white: hsl(36, 100%, 99%);
+    --bs-grayish-blue: hsl(233, 8%, 79%);
+    --bs-dark-grayish-blue: hsl(236, 13%, 42%);
+    --bs-very-dark-blue: hsl(240, 100%, 5%);
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400, 700, 800;
+}
+
+.content{
+    padding: 10px;
+}
+
+a {
+    color: var(--bs-dark-grayish-blue);
+  }
+  
